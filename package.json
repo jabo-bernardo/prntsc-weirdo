@@ -1,0 +1,21 @@
+{
+  "name": "prnt-sc-weird",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^0.21.1",
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}
